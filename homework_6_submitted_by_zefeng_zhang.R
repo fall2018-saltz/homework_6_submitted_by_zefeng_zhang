@@ -20,4 +20,5 @@ str(cleanCensus)
 arrests<-USArrests
 arrests
 #3)	Create a merged dataframe -- with the attributes from both dataframes
-#（Hint: get the state names from the USArests dataframe with the rownames Hint: use the merge command 
+#get the state names from the USArests dataframe with the rownames） 
+#Hint: use the merge command 
