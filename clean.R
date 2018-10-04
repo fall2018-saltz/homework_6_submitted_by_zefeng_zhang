@@ -1,3 +1,3 @@
 
 clean_data <- raw_data
-head(clean_data)
+head(raw_data)
