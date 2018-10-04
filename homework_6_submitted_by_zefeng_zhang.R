@@ -19,8 +19,10 @@ str(cleanCensus)
 #2)	Copy the USArrests dataset into a local variable (similar to HW 2)
 arrests<-USArrests
 arrests
+
 #3)	Create a merged dataframe -- with the attributes from both dataframes
 #get the state names from the USArests dataframe with the rownames） 
 #Hint: use the merge command 
+#rbind second data change from row to coloum 
 totalData<-merge (cleanCensus,arrests, by=c("stateName"))
 str(totalData)
