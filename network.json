@@ -12,7 +12,7 @@
                 }
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
-            "target": "clean.R"
+            "target": "homework_6_submitted_by_zefeng_zhang.R"
         },
         {
             "ports": [
@@ -21,7 +21,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "clean.R",
+            "source": "homework_6_submitted_by_zefeng_zhang.R",
             "target": "data.csv"
         }
     ],
@@ -30,14 +30,15 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "zefeng",
-            "name": "clean.R",
-            "task_status": "in progress"
+            "name": "data.csv"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "zefeng",
+            "desc": "",
+            "name": "homework_6_submitted_by_zefeng_zhang.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 15:32:01",
+    "updated_at": "2018-10-04 15:36:38",
     "url": "https://github.com/fall2018-saltz/homework_6_submitted_by_zefeng_zhang"
 }
