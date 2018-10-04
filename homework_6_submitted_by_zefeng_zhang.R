@@ -10,3 +10,4 @@ colnames(states)<-c("stateName", "population","popOver18","percentOver18")
     
 }
 cleanCensus<-readStates(row_data)
+str(cleanCensus)
