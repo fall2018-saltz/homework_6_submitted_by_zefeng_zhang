@@ -11,7 +11,7 @@ states<-states[-num.row,]
 states<-states[,-1:-4]
 colnames(states)<-c("stateName", "population","popOver18","percentOver18")
   return(states)
-   str(states) 
+    
 }
 cleanCensus<-readStates(raw_data)
 str(cleanCensus)
@@ -22,4 +22,4 @@ arrests
 #3)	Create a merged dataframe -- with the attributes from both dataframes
 #get the state names from the USArests dataframe with the rownames） 
 #Hint: use the merge command 
-totalData<-merge (cleanCensus,arrests, by=c()))
+totalData<-merge (cleanCensus,arrests, by=c("stateName", "population","popOver18","percentOver18")))
