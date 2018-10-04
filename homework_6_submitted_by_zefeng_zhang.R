@@ -22,5 +22,5 @@ arrests
 #3)	Create a merged dataframe -- with the attributes from both dataframes
 #get the state names from the USArests dataframe with the rownames） 
 #Hint: use the merge command 
-totalData<-merge (cleanCensus,arrests, by=c("stateName","stateName"))
+totalData<-merge (cleanCensus,arrests, by=c("stateName"))
 str(totalData)
