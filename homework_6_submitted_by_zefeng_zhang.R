@@ -6,8 +6,8 @@ num.row<-norw(states)
 states<-states[-num.row,]
 states<-states[,-1:-4]
 colnames(states)<-c("stateName", "population","popOver18","percentOver18")
-  return(dfStates)
+  return(states)
     
 }
-cleanCensus<-readStates(row_data)
+cleanCensus<-readStates(raw_data)
 str(cleanCensus)
