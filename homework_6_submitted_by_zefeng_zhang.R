@@ -23,3 +23,4 @@ arrests
 #get the state names from the USArests dataframe with the rownames） 
 #Hint: use the merge command 
 totalData<-merge (cleanCensus,arrests, by=c("stateName","stateName"))
+str(totalData)
