@@ -25,6 +25,5 @@ arrests$stateName <- row.names(arrests)
 #Hint: use the merge command 
 #rbind second data change from row to coloum 
 totalData<-merge (cleanCensus,arrests, by=c("stateName"))
-str(totalData)
 
 
