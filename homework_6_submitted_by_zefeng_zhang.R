@@ -32,4 +32,5 @@ totalData<-merge (cleanCensus,arrests, by=c("stateName"))
 
 library(ggplot2)
 ggplot(totalData, aes（x=population)
+geom_histogram()
 
