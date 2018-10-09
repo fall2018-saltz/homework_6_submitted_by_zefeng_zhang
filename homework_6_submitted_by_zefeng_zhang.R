@@ -31,4 +31,5 @@ totalData<-merge (cleanCensus,arrests, by=c("stateName"))
 # and different histogram for the murder rate
 
 library(ggplot2)
+ggplot(totalData, aes（x=population)
 
