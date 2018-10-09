@@ -28,8 +28,3 @@ totalData<- merge(arrests , cleanCensus)
 
 #Step B: Explore the Data – Understanding distributions
 #Create a histogram using GGPLOT for the population and a different histogram for the murder rate
-library(ggplot2)
-ggplot(totalData , aes(x=population)) + 
-  geom_histogram()
-ggplot(totalData , aes(x=Murder)) + 
-  geom_histogram()
