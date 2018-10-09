@@ -14,7 +14,6 @@ colnames(states)<-c("stateName", "population","popOver18","percentOver18")
     
 }
 cleanCensus<-readStates(raw_data)
-str(cleanCensus)
 
 #2)	Copy the USArrests dataset into a local variable (similar to HW 2)
 arrests<-USArrests
@@ -25,7 +24,7 @@ arrests<-USArrests
 #Hint: use the merge command 
 #rbind second data change from row to coloum 
 arrests$stateName <- row.names(arrests)
-totalData<- merge(arrests , states_population)
+totalData<- merge(arrests , cleanCensus)
 
 #Step B: Explore the Data – Understanding distributions
 #Create a histogram using GGPLOT for the population and a different histogram for the murder rate
