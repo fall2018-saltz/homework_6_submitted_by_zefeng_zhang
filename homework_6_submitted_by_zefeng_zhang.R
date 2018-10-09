@@ -44,3 +44,5 @@ ggplot(totalData, aes（y=population))+
 geom_boxplot()
 ggplot(totalData,aes(y=murder)+
 geom_boxplot
+
+#6)	Explain which visualization (boxplot or histogram) is more helpful 
