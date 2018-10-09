@@ -27,7 +27,7 @@ arrests$stateName <- row.names(arrests)
 totalData<-merge (cleanCensus,arrests, by=c("stateName"))
 
 #Step B: Explore the Data – Understanding distributions
-#Create a histogram using GGPLOT for the population
+#4) Create a histogram using GGPLOT for the population
 # and different histogram for the murder rate
 
 library(ggplot2)
@@ -37,3 +37,4 @@ geom_histogram()
 ggplot (totalData, aes(x=murder) +
 geom_histogram()
 
+#5) Create a boxplot for the population, and a different boxplot for the murder rate
