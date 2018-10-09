@@ -41,3 +41,5 @@ geom_histogram()
 #5) Create a boxplot for the population
 #and a different boxplot for the murder rate
 ggplot(totalData, aes（y=population))+
+geom_boxplot()
+ggplot(totalData,aes(y=murder)+
