@@ -58,8 +58,9 @@ The boxplot shows the spread of all the data, the median and outliers, which is 
 
 # 10) Generate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate
 
-# 11)	 Generate a third bar chart, the same as the previous step, but also showing percentOver18 as the color of the bar
+# 11) Generate a third bar chart, the same as the previous step, but also showing percentOver18 as the color of the bar
 
-
+#Step D: Explore Murders – scatter chart
+#12)	Generate a scatter plot – have population on the X axis, the percent over 18 on the y axis, and the size & color represent the murder rate
 
 
