@@ -51,6 +51,7 @@ The boxplot shows the spread of all the data, the median and outliers, which is 
 #Step C: Which State had the Most Murders – bar charts
 #7)	Calculate the number of murders per state
 
+
 #8)	Generate a bar chart, with the number of murders per state
 #Hint: use the geom_col function
 
