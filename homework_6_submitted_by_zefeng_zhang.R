@@ -23,6 +23,7 @@ arrests<-USArrests
 #get the state names from the USArests dataframe with the rownames） 
 #Hint: use the merge command 
 #rbind second data change from row to coloum 
+arrests$stateName <- row.names(arrests)
 totalData<-merge (cleanCensus,arrests, by=c("stateName"))
 
 #Step B: Explore the Data – Understanding distributions
