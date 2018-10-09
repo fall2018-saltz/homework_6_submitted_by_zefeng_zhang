@@ -40,12 +40,12 @@ geom_histogram()
 
 #5) Create a boxplot for the population
 #and a different boxplot for the murder rate
-ggplot(totalData, aes（y=population))+
+ggplot(totalData, aes(x=factor(0),population))+
 geom_boxplot()
-ggplot(totalData,aes(y=murder)+
+ggplot(totalData,aes((x=factor(0), murder)+
 geom_boxplot
 
 #6)	Explain which visualization (boxplot or histogram) is more helpful 
-The boxplot shows the spread of all the data, the median and outliers, which is more comprehensive than histogram.
+The boxplot shows the spread of all the data, the median and outliers, which is more helpful than histogram.
 
-
+#Step C: Which State had the Most Murders – bar charts
