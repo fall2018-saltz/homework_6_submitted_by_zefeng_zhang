@@ -49,3 +49,6 @@ geom_boxplot
 The boxplot shows the spread of all the data, the median and outliers, which is more helpful than histogram.
 
 #Step C: Which State had the Most Murders – bar charts
+#7)	Calculate the number of murders per state
+
+
