@@ -46,3 +46,4 @@ ggplot(totalData,aes(y=murder)+
 geom_boxplot
 
 #6)	Explain which visualization (boxplot or histogram) is more helpful 
+The boxplot shows the spread of all the data, the median and outliers, which is more comprehensive than histogram.
