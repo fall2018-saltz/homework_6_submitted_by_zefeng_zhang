@@ -54,5 +54,9 @@ The boxplot shows the spread of all the data, the median and outliers, which is 
 #8)	Generate a bar chart, with the number of murders per state
 #Hint: use the geom_col function
 
+#9)	Generate a bar chart, with the number of murders per state. Rotate text (on the X axis), so we can see x labels, also add a title named “Total Murders”.
+
+# 10)	 Generate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate
+
 
 
