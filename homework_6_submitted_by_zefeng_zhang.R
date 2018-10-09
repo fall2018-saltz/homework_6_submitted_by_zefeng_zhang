@@ -24,12 +24,13 @@ arrests<-USArrests
 #get the state names from the USArests dataframe with the rownames） 
 #Hint: use the merge command 
 #rbind second data change from row to coloum 
-totalData<-merge (cleanCensus,arrests, by=c("stateName"))
+arrests$stateName <- row.names(arrests)
+totalData<- merge(arrests , states_population)
 
 #Step B: Explore the Data – Understanding distributions
 #Create a histogram using GGPLOT for the population and a different histogram for the murder rate
 library(ggplot2)
-ggplot(merged_data , aes(x=population)) + 
+ggplot(totalData , aes(x=population)) + 
   geom_histogram()
-ggplot(merged_data , aes(x=Murder)) + 
+ggplot(totalData , aes(x=Murder)) + 
   geom_histogram()
