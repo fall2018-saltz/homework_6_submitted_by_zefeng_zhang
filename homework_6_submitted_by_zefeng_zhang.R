@@ -34,4 +34,5 @@ library(ggplot2)
 ggplot(totalData, aes（x=population) +
 geom_histogram()
 ggplot (totalData, aes(x=murder) +
+geom_histogram()
 
