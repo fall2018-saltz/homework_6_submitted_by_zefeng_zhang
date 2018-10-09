@@ -14,10 +14,10 @@ colnames(states)<-c("stateName", "population","popOver18","percentOver18")
     
 }
 cleanCensus<-readStates(raw_data)
-
+str(cleanCensus)
 #2)	Copy the USArrests dataset into a local variable (similar to HW 2)
 arrests<-USArrests
-str(arrests)
+
 
 #3)	Create a merged dataframe -- with the attributes from both dataframes
 #get the state names from the USArests dataframe with the rownames） 
