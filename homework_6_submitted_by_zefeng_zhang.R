@@ -43,3 +43,4 @@ geom_histogram()
 ggplot(totalData, aes（y=population))+
 geom_boxplot()
 ggplot(totalData,aes(y=murder)+
+geom_boxplot
