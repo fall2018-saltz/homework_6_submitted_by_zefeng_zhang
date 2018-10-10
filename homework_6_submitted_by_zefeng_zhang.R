@@ -64,7 +64,7 @@ geom_col()
 ggplot(totalData, aes(x=stateName, y=murderPerState))+
   geom_col()+
   theme(axis.text.x =element_text(angle=90,hjust=1)) + ggtitle ("Total Murders")
-# 10) Generate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate
+# 10) Generate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder per state
 ggplot(totalData, aes(x=reorder(stateName,murderPerState), y=murderPerState))+
   geom_col()+
   theme(axis.text.x =element_text(angle=90,hjust=1)) + ggtitle ("Total Murders")
