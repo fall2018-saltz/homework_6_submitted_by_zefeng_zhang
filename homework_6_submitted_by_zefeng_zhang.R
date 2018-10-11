@@ -31,7 +31,7 @@ head(totalData)
 #Step B: Explore the Data – Understanding distributions
 #4) Create a histogram using GGPLOT for the population
 library(ggplot2)
-ggplot(totalData, aes(x=population))+
+hist1 <- ggplot(totalData, aes(x=population))+
   geom_histogram (bins=50, color ="blue",fill="white")
 # and different histogram for the murder rate
 ggplot(totalData,aes(x=Murder)) +
