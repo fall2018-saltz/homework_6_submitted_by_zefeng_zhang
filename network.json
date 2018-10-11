@@ -133,6 +133,16 @@
             ],
             "source": "homework_6_submitted_by_zefeng_zhang.R",
             "target": "barchart4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatterplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "homework_6_submitted_by_zefeng_zhang.R",
+            "target": "scatterplot1.png"
         }
     ],
     "nodes": [
@@ -185,6 +195,6 @@
             "name": "scatterplot1.png"
         }
     ],
-    "updated_at": "2018-10-11 16:49:36",
+    "updated_at": "2018-10-11 16:49:52",
     "url": "https://github.com/fall2018-saltz/homework_6_submitted_by_zefeng_zhang"
 }
