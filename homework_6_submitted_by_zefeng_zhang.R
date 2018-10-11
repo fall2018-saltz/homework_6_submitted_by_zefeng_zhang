@@ -88,7 +88,7 @@ barchart4 <-ggplot(totalData, aes(x=reorder(stateName,murderPerState), y=murderP
 #Step D: Explore Murders – scatter chart
 #12)	Generate a scatter plot – have population on the X axis, the percent over 18 on the y axis
 #and the size & color represent the murder rate
-scatterplot 1<- ggplot(totalData, aes(x = population , y =percentOver18 , size = murderPerState , col =murderPerState)) + 
+scatterplot1 <- ggplot(totalData, aes(x = population , y =percentOver18 , size = murderPerState , col =murderPerState)) + 
   geom_point()
 
   
