@@ -93,6 +93,16 @@
             ],
             "source": "homework_6_submitted_by_zefeng_zhang.R",
             "target": "boxplot2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchart1",
+                    "type": "png"
+                }
+            ],
+            "source": "homework_6_submitted_by_zefeng_zhang.R",
+            "target": "barchart1.png"
         }
     ],
     "nodes": [
@@ -133,6 +143,6 @@
             "name": "barchart1.png"
         }
     ],
-    "updated_at": "2018-10-11 16:48:08",
+    "updated_at": "2018-10-11 16:48:14",
     "url": "https://github.com/fall2018-saltz/homework_6_submitted_by_zefeng_zhang"
 }
