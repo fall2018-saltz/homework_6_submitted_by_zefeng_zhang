@@ -43,6 +43,16 @@
             ],
             "source": "homework_6_submitted_by_zefeng_zhang.R",
             "target": "hist2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist3",
+                    "type": "png"
+                }
+            ],
+            "source": "homework_6_submitted_by_zefeng_zhang.R",
+            "target": "hist3.png"
         }
     ],
     "nodes": [
@@ -68,6 +78,6 @@
             "name": "hist3.png"
         }
     ],
-    "updated_at": "2018-10-11 16:45:55",
+    "updated_at": "2018-10-11 16:46:06",
     "url": "https://github.com/fall2018-saltz/homework_6_submitted_by_zefeng_zhang"
 }
