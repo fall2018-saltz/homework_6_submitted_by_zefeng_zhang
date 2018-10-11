@@ -35,25 +35,25 @@ library(ggplot2)
 hist1 <- ggplot(totalData, aes(x=population))+
   geom_histogram (bins=50, color ="blue",fill="white")
 # and different histogram for the murder rate
-ggplot(totalData,aes(x=Murder)) +
+hist2<- ggplot(totalData,aes(x=Murder)) +
           geom_histogram(bins=30, color ="blue",fill="white")
 #Then build similar code to create histograms of each of the other three variables in the merged data frame.
 #create a histogram for the assault rate  
-ggplot(totalData, aes(x=Assault))+
+hist3 <-ggplot(totalData, aes(x=Assault))+
   geom_histogram (bins=20, color ="blue",fill="white")
 #create a histogram for the uraban population rate
-ggplot(totalData,aes(x=UrbanPop)) +
+hist4<-ggplot(totalData,aes(x=UrbanPop)) +
   geom_histogram(bins=50, color ="blue",fill="white")
 #create a histogram for the rape rate
-ggplot(totalData, aes(x=Rape))+
+hist5<-ggplot(totalData, aes(x=Rape))+
   geom_histogram (bins=20, color ="blue",fill="white")
 #I explored multiple bin widths and tried to find the best to illustrate the data.
         
  #5) Create a boxplot for the population
         #and a different boxplot for the murder rate
-        ggplot(totalData, aes(x=factor(0), y=population))+
+      boxplot1 <-  ggplot(totalData, aes(x=factor(0), y=population))+
           geom_boxplot()
-        ggplot(totalData, aes(x=factor(0), y=Murder))+
+      boxplot 2 <-  ggplot(totalData, aes(x=factor(0), y=Murder))+
           geom_boxplot()
 
 #6)	Explain which visualization (boxplot or histogram) is more helpful 
