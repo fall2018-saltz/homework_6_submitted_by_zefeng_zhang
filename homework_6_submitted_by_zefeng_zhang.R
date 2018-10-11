@@ -5,7 +5,7 @@
 #1)	Read in the census dataset
 readStates<-function()
 {
-states<-row_data
+states<-raw_data
 states<-states[-1,]
 num.row<-nrow(states)
 states<-states[-num.row,]
