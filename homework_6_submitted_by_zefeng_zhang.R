@@ -30,13 +30,23 @@ str(totalData)
 head(totalData)
 #Step B: Explore the Data – Understanding distributions
 #4) Create a histogram using GGPLOT for the population
-# and different histogram for the murder rate
-
 library(ggplot2)
 ggplot(totalData, aes(x=population))+
   geom_histogram (bins=50, color ="blue",fill="white")
+# and different histogram for the murder rate
 ggplot(totalData,aes(x=Murder)) +
-          geom_histogram(bins=50, color ="blue",fill="white")
+          geom_histogram(bins=30, color ="blue",fill="white")
+#Then build similar code to create histograms of each of the other three variables in the merged data frame.
+#create a histogram for the assault rate  
+ggplot(totalData, aes(x=Assault))+
+  geom_histogram (bins=20, color ="blue",fill="white")
+#create a histogram for the uraban population rate
+ggplot(totalData,aes(x=UrbanPop)) +
+  geom_histogram(bins=50, color ="blue",fill="white")
+#create a histogram for the rape rate
+ggplot(totalData, aes(x=Rape))+
+  geom_histogram (bins=20, color ="blue",fill="white")
+#I explored multiple bin widths and tried to find the best to illustrate the data.
         
  #5) Create a boxplot for the population
         #and a different boxplot for the murder rate
@@ -64,7 +74,7 @@ geom_col()
 ggplot(totalData, aes(x=stateName, y=murderPerState))+
   geom_col()+
   theme(axis.text.x =element_text(angle=90,hjust=1)) + ggtitle ("Total Murders")
-# 10) Generate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder per state
+# 10) Generate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate
 ggplot(totalData, aes(x=reorder(stateName,murderPerState), y=murderPerState))+
   geom_col()+
   theme(axis.text.x =element_text(angle=90,hjust=1)) + ggtitle ("Total Murders")
