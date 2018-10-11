@@ -73,6 +73,16 @@
             ],
             "source": "homework_6_submitted_by_zefeng_zhang.R",
             "target": "hist5.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "homework_6_submitted_by_zefeng_zhang.R",
+            "target": "boxplot1.png"
         }
     ],
     "nodes": [
@@ -107,6 +117,6 @@
             "name": "boxplot1.png"
         }
     ],
-    "updated_at": "2018-10-11 16:47:12",
+    "updated_at": "2018-10-11 16:47:19",
     "url": "https://github.com/fall2018-saltz/homework_6_submitted_by_zefeng_zhang"
 }
