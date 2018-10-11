@@ -1,5 +1,5 @@
 
-# Homework 6 – Submitted by Zefeng Zhang (Ben) on Oct, 2018
+# Homework 6 – Submitted by Zefeng Zhang (Ben) on Oct 10, 2018
 
 #Load and Merge datasets
 #1)	Read in the census dataset
