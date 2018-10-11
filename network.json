@@ -22,7 +22,7 @@
                 }
             ],
             "source": "homework_6_submitted_by_zefeng_zhang.R",
-            "target": "raw_data.csv"
+            "target": "data.csv"
         },
         {
             "ports": [
@@ -40,7 +40,7 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "raw_data.csv"
+            "name": "data.csv"
         },
         {
             "assigned_to": "zefeng",
@@ -52,6 +52,6 @@
             "name": "hist1.png"
         }
     ],
-    "updated_at": "2018-10-11 16:30:42",
+    "updated_at": "2018-10-11 16:31:23",
     "url": "https://github.com/fall2018-saltz/homework_6_submitted_by_zefeng_zhang"
 }
