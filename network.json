@@ -23,6 +23,126 @@
             ],
             "source": "homework_6_submitted_by_zefeng_zhang.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist1",
+                    "type": "png"
+                }
+            ],
+            "source": "homework_6_submitted_by_zefeng_zhang.R",
+            "target": "hist1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist2",
+                    "type": "png"
+                }
+            ],
+            "source": "homework_6_submitted_by_zefeng_zhang.R",
+            "target": "hist2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist3",
+                    "type": "png"
+                }
+            ],
+            "source": "homework_6_submitted_by_zefeng_zhang.R",
+            "target": "hist3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist4",
+                    "type": "png"
+                }
+            ],
+            "source": "homework_6_submitted_by_zefeng_zhang.R",
+            "target": "hist4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist5",
+                    "type": "png"
+                }
+            ],
+            "source": "homework_6_submitted_by_zefeng_zhang.R",
+            "target": "hist5.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "homework_6_submitted_by_zefeng_zhang.R",
+            "target": "boxplot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot2",
+                    "type": "png"
+                }
+            ],
+            "source": "homework_6_submitted_by_zefeng_zhang.R",
+            "target": "boxplot2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchart1",
+                    "type": "png"
+                }
+            ],
+            "source": "homework_6_submitted_by_zefeng_zhang.R",
+            "target": "barchart1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchart2",
+                    "type": "png"
+                }
+            ],
+            "source": "homework_6_submitted_by_zefeng_zhang.R",
+            "target": "barchart2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchart3",
+                    "type": "png"
+                }
+            ],
+            "source": "homework_6_submitted_by_zefeng_zhang.R",
+            "target": "barchart3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barchart4",
+                    "type": "png"
+                }
+            ],
+            "source": "homework_6_submitted_by_zefeng_zhang.R",
+            "target": "barchart4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatterplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "homework_6_submitted_by_zefeng_zhang.R",
+            "target": "scatterplot1.png"
         }
     ],
     "nodes": [
@@ -37,8 +157,44 @@
             "desc": "",
             "name": "homework_6_submitted_by_zefeng_zhang.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "hist1.png"
+        },
+        {
+            "name": "hist2.png"
+        },
+        {
+            "name": "hist3.png"
+        },
+        {
+            "name": "hist4.png"
+        },
+        {
+            "name": "hist5.png"
+        },
+        {
+            "name": "boxplot1.png"
+        },
+        {
+            "name": "boxplot2.png"
+        },
+        {
+            "name": "barchart1.png"
+        },
+        {
+            "name": "barchart2.png"
+        },
+        {
+            "name": "barchart3.png"
+        },
+        {
+            "name": "barchart4.png"
+        },
+        {
+            "name": "scatterplot1.png"
         }
     ],
-    "updated_at": "2018-10-04 15:36:38",
+    "updated_at": "2018-10-11 16:49:52",
     "url": "https://github.com/fall2018-saltz/homework_6_submitted_by_zefeng_zhang"
 }
