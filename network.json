@@ -17,16 +17,6 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "homework_6_submitted_by_zefeng_zhang.R",
-            "target": "data.csv"
-        },
-        {
-            "ports": [
-                {
                     "output": "hist1",
                     "type": "png"
                 }
@@ -150,9 +140,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "data.csv"
-        },
-        {
             "assigned_to": "zefeng",
             "desc": "",
             "name": "homework_6_submitted_by_zefeng_zhang.R",
@@ -195,6 +182,6 @@
             "name": "scatterplot1.png"
         }
     ],
-    "updated_at": "2018-10-11 16:49:52",
+    "updated_at": "2018-10-18 15:03:50",
     "url": "https://github.com/fall2018-saltz/homework_6_submitted_by_zefeng_zhang"
 }
